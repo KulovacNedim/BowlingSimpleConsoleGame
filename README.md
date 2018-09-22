@@ -2,5 +2,5 @@
 
 Challange to implement bowling logic.
 
-<a href="https://github.com/KulovacNedim/BankApp/blob/master/docs/Bowling.pdf">Task description</a>
+<a href="https://github.com/KulovacNedim/BowlingSimpleConsoleGame/blob/master/Bowling.pdf">Task description</a>
  
