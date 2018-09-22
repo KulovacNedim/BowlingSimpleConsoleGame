@@ -58,6 +58,17 @@ public class Main {
                 frameScore += points.get(i + 2); //spare
             }
 
+            // strike
+            if (roll1 + roll2 == 10 && roll2 == 0) {
+
+                if (points.get(i + 2) + points.get(i + 3) == 10 && points.get(i + 3) == 0) {
+                    frameScore += (points.get(i + 2) + points.get(i + 4));
+                } else {
+                    frameScore += (points.get(i + 2) + points.get(i + 3));
+                }
+
+            }
+
             result = result + frameScore;
 
             scoreboard.add(result);
