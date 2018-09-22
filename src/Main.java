@@ -54,6 +54,10 @@ public class Main {
 
             frameScore = roll1 + roll2;
 
+            if (roll1 + roll2 == 10 && roll2 != 0) {
+                frameScore += points.get(i + 2); //spare
+            }
+
             result = result + frameScore;
 
             scoreboard.add(result);
